@@ -35,6 +35,12 @@
 		EC6A3FC02A5E286E00D0726A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FBF2A5E286E00D0726A /* UIButton.swift */; };
 		EC6A3FC12A5E286E00D0726A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FBF2A5E286E00D0726A /* UIButton.swift */; };
 		EC6A3FC22A5E286E00D0726A /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FBF2A5E286E00D0726A /* UIButton.swift */; };
+		EC6A3FC72A6036D800D0726A /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FC62A6036D800D0726A /* Loading.swift */; };
+		EC6A3FC82A6036D800D0726A /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FC62A6036D800D0726A /* Loading.swift */; };
+		EC6A3FC92A6036D800D0726A /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FC62A6036D800D0726A /* Loading.swift */; };
+		EC6A3FCE2A6046D400D0726A /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FCD2A6046D400D0726A /* MatchVC.swift */; };
+		EC6A3FCF2A6046D400D0726A /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FCD2A6046D400D0726A /* MatchVC.swift */; };
+		EC6A3FD02A6046D400D0726A /* MatchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6A3FCD2A6046D400D0726A /* MatchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +83,8 @@
 		EC6A3FAB2A5E0E7E00D0726A /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = ../../../../Downloads/UserService.swift; sourceTree = "<group>"; };
 		EC6A3FB82A5E129A00D0726A /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 		EC6A3FBF2A5E286E00D0726A /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		EC6A3FC62A6036D800D0726A /* Loading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
+		EC6A3FCD2A6046D400D0726A /* MatchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				EC6A3F782A5D9A2F00D0726A /* CombineVC.swift */,
+				EC6A3FCD2A6046D400D0726A /* MatchVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -173,6 +182,7 @@
 			isa = PBXGroup;
 			children = (
 				EC6A3F7E2A5DA55B00D0726A /* CombineCardView.swift */,
+				EC6A3FC62A6036D800D0726A /* Loading.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -344,6 +354,8 @@
 				EC6A3F452A5D99FA00D0726A /* AppDelegate.swift in Sources */,
 				EC6A3FC02A5E286E00D0726A /* UIButton.swift in Sources */,
 				EC6A3F882A5DA8F200D0726A /* UIView.swift in Sources */,
+				EC6A3FCE2A6046D400D0726A /* MatchVC.swift in Sources */,
+				EC6A3FC72A6036D800D0726A /* Loading.swift in Sources */,
 				EC6A3F472A5D99FA00D0726A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,10 +366,12 @@
 			files = (
 				EC6A3FAD2A5E0E7E00D0726A /* UserService.swift in Sources */,
 				EC6A3F9A2A5E055A00D0726A /* User.swift in Sources */,
+				EC6A3FCF2A6046D400D0726A /* MatchVC.swift in Sources */,
 				EC6A3F892A5DA8F200D0726A /* UIView.swift in Sources */,
 				EC6A3F932A5DF39C00D0726A /* UILabel.swift in Sources */,
 				EC6A3FC12A5E286E00D0726A /* UIButton.swift in Sources */,
 				EC6A3FBA2A5E129A00D0726A /* UIImageView.swift in Sources */,
+				EC6A3FC82A6036D800D0726A /* Loading.swift in Sources */,
 				EC6A3F5C2A5D99FC00D0726A /* SocialMediaAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,10 +382,12 @@
 			files = (
 				EC6A3FAE2A5E0E7E00D0726A /* UserService.swift in Sources */,
 				EC6A3F9B2A5E055A00D0726A /* User.swift in Sources */,
+				EC6A3FD02A6046D400D0726A /* MatchVC.swift in Sources */,
 				EC6A3F8A2A5DA8F200D0726A /* UIView.swift in Sources */,
 				EC6A3F942A5DF39C00D0726A /* UILabel.swift in Sources */,
 				EC6A3FC22A5E286E00D0726A /* UIButton.swift in Sources */,
 				EC6A3FBB2A5E129A00D0726A /* UIImageView.swift in Sources */,
+				EC6A3FC92A6036D800D0726A /* Loading.swift in Sources */,
 				EC6A3F672A5D99FC00D0726A /* SocialMediaAppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
