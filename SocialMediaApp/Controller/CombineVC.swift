@@ -106,6 +106,10 @@ extension CombineVC {
             card.user = user
             card.tag = user.id
             
+            card.callback = {(data) in
+                self.viewDetail(user: data)
+            }
+            
             let gesture = UIPanGestureRecognizer()
             gesture.addTarget(self, action: #selector(handlerCard))
             
@@ -125,13 +129,22 @@ extension CombineVC {
     func verificarMatch (user: User) {
         if user.match {
             let matchVC = MatchVC()
+            matchVC.user = user
             matchVC.modalPresentationStyle = .fullScreen
             self.present(matchVC, animated: true, completion: nil)
         }
     }
+    
+    func viewDetail(user: User) {
+        let detailVC = DetailVC()
+        detailVC.modalPresentationStyle = .fullScreen
+        
+        self.present(detailVC, animated: true, completion: nil)
+    }
 }
 
 extension CombineVC {
+    
     @objc func handlerCard (_ gesture: UIPanGestureRecognizer) {
         if let card = gesture.view as? CombineCardView {
             let point = gesture.translation(in: view)
